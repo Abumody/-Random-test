@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 2023 Session 1 | Patrol Test Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/Test 2023 - session 1.css">
+    <link rel="stylesheet" href="../css/Test 2023 - session 1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="test-info">
+                <h1>Patrol Test 2023 - Session 1</h1>
+                <p>Complete all sections of the test</p>
+            </div>
+            <div class="student-info">
+                <div class="student-name" id="studentName">Student Name</div>
+                <a href="Dashboard.html" class="btn btn-outline" id="backBtn">
+                    <i class="fas fa-arrow-left"></i> Back to Dashboard
+                </a>
+            </div>
+        </div>
+        
+        <div class="sections-grid">
+            <!-- Listening 1 Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-headphones section-icon"></i> Listening 1</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section tests your ability to understand spoken English in various contexts.</p>
+                        <p>You will hear recordings and answer questions based on what you hear.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="Listening 07.html" class="section-btn" data-section="listening1">
+                        <i class="fas fa-play-circle"></i> Start Listening 07
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Listening 2 Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-headphones section-icon"></i> Listening 2</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section contains more advanced listening comprehension exercises.</p>
+                        <p>You will hear longer conversations and academic lectures.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="Taj Mahal.html" class="section-btn" data-section="listening2">
+                        <i class="fas fa-play-circle"></i> Start Listening 2
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Reading 1 Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-book section-icon"></i> Reading 1</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section contains short reading passages with comprehension questions.</p>
+                        <p>Focus on understanding the main ideas and details.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="Reading 1-9.html" class="section-btn" data-section="reading1">
+                        <i class="fas fa-book-open"></i> Start Reading 1
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Reading 2 Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-book section-icon"></i> Reading 2</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section includes medium-length passages with various question types.</p>
+                        <p>Practice identifying the writer's purpose and tone.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="Future life.html" class="section-btn" data-section="reading2">
+                        <i class="fas fa-book-open"></i> Start Reading 2
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Reading 3 Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-book section-icon"></i> Reading 3</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section features longer, more complex reading passages.</p>
+                        <p>Focus on inference, argument analysis, and textual evidence.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="Amina's Educational Journey.html" class="section-btn" data-section="reading3">
+                        <i class="fas fa-book-open"></i> Start Reading 3
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Extra Vocabulary Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-language section-icon"></i> Extra Vocabulary</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section tests your knowledge of advanced vocabulary words.</p>
+                        <p>Includes synonyms, antonyms, and word usage in context.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="Vocabulary 07-8.html" class="section-btn" data-section="vocabulary">
+                        <i class="fas fa-pen-alt"></i> Start Vocabulary
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Grammar & Vocabulary Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-spell-check section-icon"></i> Grammar & Vocabulary</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section combines grammar rules with vocabulary application.</p>
+                        <p>Tests your understanding of sentence structure and word choice.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="GrammarVocabulary 8.html" class="section-btn" data-section="grammar">
+                        <i class="fas fa-edit"></i> Start Grammar
+                    </a>
+                </div>
+            </div>
+			<!-- GrammarSection -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-spell-check section-icon"></i> Grammar</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section test your grammar rules.</p>
+                        <p>Tests your understanding of sentence structure.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="Grammar 2.html" class="section-btn" data-section="grammar">
+                        <i class="fas fa-edit"></i> Start Grammar
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Writing 1 Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-pencil-alt section-icon"></i> Writing 1</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section requires you to write a short essay on a given topic.</p>
+                        <p>Focus on structure, coherence, and clarity of expression.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="" class="section-btn" data-section="writing1">
+                        <i class="fas fa-keyboard"></i> Start Writing 1
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Writing 2 Section -->
+            <div class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-pencil-alt section-icon"></i> Writing 2</h2>
+                </div>
+                <div class="section-body">
+                    <div class="section-info">
+                        <p>This section involves a more complex writing task.</p>
+                        <p>You may need to analyze information or present an argument.</p>
+                    </div>
+                    <div class="section-status">
+                        <div class="status-dot"></div>
+                        <span>Not started</span>
+                    </div>
+                    <a href="#" class="section-btn" data-section="writing2">
+                        <i class="fas fa-keyboard"></i> Start Writing 2
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Patrol Test Portal &copy; 2023</p>
+        </div>
+    </div>
+
+    
+    
+    <script src="../js/Test 2023 - session 1.js"></script>
+</body>
+</html>
